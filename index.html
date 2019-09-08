@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="img/fabicon.png" type="image/x-icon" />
     <title>STRICT</title>
 
     <!--FontAwesome icons-->
@@ -19,6 +20,7 @@
     <link rel="stylesheet" href="css/preview.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/preview.css" />
+    <link rel="stylesheet" href="css/animation.css" />
   </head>
   <body>
     <!--Header-->
@@ -33,11 +35,14 @@
       <div class="container">
         <div class="banner__content">
           <h1 class="banner__heading">STRICT</h1>
-          <span></span>
+          <span class="line-animated"></span>
           <p class="banner__paragraph">
             STRICT is a responsive theme with a a clean and minimal look.
           </p>
-          <button type="button" class="banner__btn">Call to action</button>
+          <button type="button" class="banner__btn btn-animated">
+            Call to action
+          </button>
+          <i class="fa fa-chevron-down btn-animated" aria-hidden="true"></i>
         </div>
       </div>
     </section>
@@ -206,42 +211,42 @@
         <span class="close cursor" onclick="closeModal()">&times;</span>
 
         <div class="mySlides">
-          <div class="numbertext">1/4</div>
+          <div class="numbertext">1/6</div>
           <div class="preview">
             <img src="img/img-1.png" />
           </div>
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">1/4</div>
+          <div class="numbertext">2/6</div>
           <div class="preview">
             <img src="img/img-2.png" />
           </div>
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">1/4</div>
+          <div class="numbertext">3/6</div>
           <div class="preview">
             <img src="img/img-3.png" />
           </div>
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">1/4</div>
+          <div class="numbertext">4/6</div>
           <div class="preview">
             <img src="img/img-4.png" />
           </div>
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">1/4</div>
+          <div class="numbertext">5/6</div>
           <div class="preview">
             <img src="img/img-5.png" />
           </div>
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">1/4</div>
+          <div class="numbertext">6/6</div>
           <div class="preview">
             <img src="img/img-6.png" />
           </div>
@@ -323,7 +328,7 @@
               placeholder="Message"
             ></textarea>
             <div class="check">
-              <input type="checkbox" /> <label>Subscrib Newsletter</label>
+              <input type="checkbox" /> <label>Subscribe Newsletter</label>
             </div>
 
             <input type="submit" class="banner__btn submit" value="Send" />
