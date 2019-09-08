@@ -110,7 +110,14 @@ a.banner__btn {
   margin-bottom: 100px;
 }
 .fa.fa-chevron-down {
+  color: rgb(197, 197, 197);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.fa.fa-chevron-down:hover {
   color: white;
+  cursor: pointer;
+  transform: scale(1.06);
 }
 
 /*==================
