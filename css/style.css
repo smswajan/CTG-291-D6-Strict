@@ -30,7 +30,12 @@ section {
 --------Banner------
 ===================*/
 .banner {
-  background-image: url(../img/banner.png);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url(../img/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -92,6 +97,9 @@ section {
 }
 .banner__btn:hover {
   background-color: #15a4fa;
+}
+.banner__btn:active {
+  background-color: #0985d3;
 }
 .btn-animated {
   animation: moveInBottom 0.5s ease-out 0.75s backwards;
@@ -257,9 +265,10 @@ a.banner__btn {
   color: white;
   font-weight: lighter;
   padding: 8px;
-  border: 0.4px solid rgba(255, 255, 255, 0.6);
+  border: 2px solid white;
   margin: 5px;
   cursor: pointer;
+  font-size: large;
 }
 
 .overlay {
@@ -271,7 +280,7 @@ a.banner__btn {
   bottom: 0;
   right: 0;
   opacity: 0;
-  background-color: #2697dd;
+  background-color: #1782c5;
   transition: all 0.5s ease;
 }
 
